@@ -1,0 +1,35 @@
+{
+  "name": "itunewebsite",
+  "version": "1.0.0",
+  "description": "itune search content",
+  "main": "server.js",
+  "scripts": {
+    "test": "react-scripts test",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "victor machimana",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.2",
+    "express": "^4.17.1",
+    "helmet": "^3.20.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "chai": "4.2.0", 
+    "chai-http": "4.3.0",
+    "install": "0.13.0",
+    "mocha": "6.2.1",
+    "nodemon": "^1.19.1",
+    "npm": "6.11.3"
+  },
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.9.0"
+  }
+}

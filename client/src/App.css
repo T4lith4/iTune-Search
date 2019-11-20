@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+ /*Overall app styling*/
+.App {
+  margin: 0;
+  background-color:white;
+  height: 100%;
+}
+.App-header {
+  color: white;
+  text-align: center;
+  background-color: #343a40;
+}
+
+/*Nav-bar styling(on every component)*/
+.nav-img {
+  width: 85px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 11px;
+  margin-bottom: 20px;
+}
+.icons {
+  margin-left: 500px;
+}
+
+/*Home page styling*/
+.welcome-text {
+
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-family: 'Comfortaa', cursive;
+}
+.instruct-text {
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Comfortaa', cursive;
+}
+
+/*Drop-down on homepage styling*/
+.drop-background {
+  height: 1900px;
+}
+.dropdown-button {
+  margin-left:45%;
+  position: fixed;
+}
+
+

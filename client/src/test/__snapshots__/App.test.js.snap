@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <nav
+      className="icons navbar navbar-expand-sm navbar-light bg-dark"
+    >
+      <div
+        className="mr-auto navbar-nav"
+        onKeyDown={[Function]}
+      >
+        <a
+          aria-current="page"
+          className="active"
+          href="/"
+          onClick={[Function]}
+          style={
+            Object {
+              "opacity": "0.4",
+            }
+          }
+        >
+          <img
+            alt="home icon"
+            className="nav-img"
+            src="home.jpg"
+          />
+        </a>
+        <a
+          aria-current={null}
+          href="/music"
+          onClick={[Function]}
+        >
+          <img
+            alt="music icon"
+            className="nav-img"
+            src="music2.jpg"
+          />
+        </a>
+        <a
+          aria-current={null}
+          href="/videos"
+          onClick={[Function]}
+        >
+          <img
+            alt="music video icon"
+            className="nav-img"
+            src="video-itunes.png"
+          />
+        </a>
+        <a
+          aria-current={null}
+          href="/movies"
+          onClick={[Function]}
+        >
+          <img
+            alt="movie icon"
+            className="nav-img"
+            src="video.jpg"
+          />
+        </a>
+        <a
+          aria-current={null}
+          href="/audiobooks"
+          onClick={[Function]}
+        >
+          <img
+            alt="audiobook icon"
+            marginLeft="50px"
+            src="audiobook.png"
+            width="107"
+          />
+        </a>
+      </div>
+    </nav>
+  </header>
+  <div
+    className="drop-container"
+  >
+    <h1
+      className="welcome-text"
+    >
+      Welcome to the iTunes Media Search
+    </h1>
+    <h6
+      className="instruct-text"
+    >
+      Click on an icon or select an option from the drop-down list to search for different media
+    </h6>
+    <div
+      className="drop-background dropdown-button"
+    >
+      <div
+        className="dropdown"
+        onKeyDown={[Function]}
+      >
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          aria-label={null}
+          className="dropdown-toggle btn btn-secondary"
+          onClick={[Function]}
+          type="button"
+        >
+          Search 
+          <span
+            aria-label="magnifying glass"
+            role="img"
+          >
+            🔍
+          </span>
+        </button>
+        <div
+          aria-hidden={true}
+          className="dropdown-menu"
+          role="menu"
+          tabIndex="-1"
+        >
+          <a
+            className="dropdown-item"
+            href="/music"
+            onClick={[Function]}
+            role="menuitem"
+            tabIndex="0"
+          >
+            Music
+          </a>
+          <a
+            className="dropdown-item"
+            href="/movies"
+            onClick={[Function]}
+            role="menuitem"
+            tabIndex="0"
+          >
+            Movies
+          </a>
+          <a
+            className="dropdown-item"
+            href="/videos"
+            onClick={[Function]}
+            role="menuitem"
+            tabIndex="0"
+          >
+            Music Videos
+          </a>
+          <a
+            className="dropdown-item"
+            href="/audiobooks"
+            onClick={[Function]}
+            role="menuitem"
+            tabIndex="0"
+          >
+            Audio Books
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
