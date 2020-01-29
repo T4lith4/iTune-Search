@@ -103,7 +103,7 @@ class Videos extends React.Component {
     };
 
     this.setState({ favoriteList: [...favoriteList, item] });
-    alert("added to favortes");
+    alert(`${item} has been added to your favorites list`);
   };
 
   renderSearchResults = () => {

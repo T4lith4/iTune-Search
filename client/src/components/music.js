@@ -104,7 +104,7 @@ class Music extends React.Component {
     };
 
     this.setState({ favoriteList: [...favoriteList, item] });
-    alert("added to favorites");
+    alert(`${item.title} has been added to your favorites list. Scroll to the bottom to view your favorites.`);
   };
 
   renderSearchResults = () => {
@@ -115,7 +115,7 @@ class Music extends React.Component {
         <div className="results-container">
           {Results.map((result, index) => {
             return (
-              <div className="result-item">
+              <div key={index} className="result-item">
                 <a key={index} href={result.previewUrl}>
                   <h6 className="image-username">{result.artistName}</h6>
                   <div className="image-wraper">

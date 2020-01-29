@@ -32,8 +32,8 @@ function NavBar() {
                 <img className = "nav-img" src = {movieIcon} alt = "movie icon"/>
               </NavLink> 
 
-              <NavLink to="/audiobooks" activeStyle = {{ opacity:"0.4" }}>
-              <img width="107" marginLeft="50px" src = {abookIcon} alt = "audiobook icon" />
+              <NavLink to="/audiobooks" activeStyle = {{ opacity:"0.4", marginLeft:"50px" }}>
+              <img width="107"src = {abookIcon} alt = "audiobook icon" />
               </NavLink>
 
             </Nav>
