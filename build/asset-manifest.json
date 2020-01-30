@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c759bee7.chunk.css",
+    "main.js": "/static/js/main.caecfb1d.chunk.js",
+    "main.js.map": "/static/js/main.caecfb1d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cea588d5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cea588d5.js.map",
+    "static/js/2.4e5938c0.chunk.js": "/static/js/2.4e5938c0.chunk.js",
+    "static/js/2.4e5938c0.chunk.js.map": "/static/js/2.4e5938c0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9ca6b53fe5d8a7d7804a10309128799a.js": "/precache-manifest.9ca6b53fe5d8a7d7804a10309128799a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c759bee7.chunk.css.map": "/static/css/main.c759bee7.chunk.css.map",
+    "static/js/2.4e5938c0.chunk.js.LICENSE": "/static/js/2.4e5938c0.chunk.js.LICENSE",
+    "static/media/audiobook.png": "/static/media/audiobook.cc195f1b.png",
+    "static/media/home.jpg": "/static/media/home.488230c2.jpg",
+    "static/media/loader.gif": "/static/media/loader.de50e2e9.gif",
+    "static/media/video-itunes.png": "/static/media/video-itunes.e1468bd4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cea588d5.js",
+    "static/js/2.4e5938c0.chunk.js",
+    "static/css/main.c759bee7.chunk.css",
+    "static/js/main.caecfb1d.chunk.js"
+  ]
+}
