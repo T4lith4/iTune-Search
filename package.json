@@ -10,9 +10,6 @@
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
-  
-   
-    
   },
   "author": "victor machimana",
   "license": "ISC",
@@ -29,7 +26,7 @@
     "install": "0.13.0",
     "mocha": "6.2.1",
     "nodemon": "^1.19.1",
-    "npm": "6.13.7"
+    "npm": "6.14.4"
   },
   "engines": {
     "node": "10.16.0",
